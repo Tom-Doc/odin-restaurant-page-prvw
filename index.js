@@ -38,7 +38,7 @@ function renderHomeTab() {
   tabContent.innerHTML = "";
   // Home Page Image
   const newImage = document.createElement("img");
-  newImage.src = "/images/PizzaBackground.jpg";
+  newImage.src = "images/PizzaBackground.jpg";
   newImage.classList.add("home-image");
 
   // Footer Container
@@ -65,9 +65,9 @@ function renderHomeTab() {
   footerIconContainer.classList.add("footer-icon-container");
 
   const iconSources = [
-    "/images/footer-icons/pizza.png",
+    "images/footer-icons/pizza.png",
     "images/footer-icons/wine-bottle.png",
-    "/images/footer-icons/dinner-table.png",
+    "images/footer-icons/dinner-table.png",
   ];
 
   for (let i = 0; i < iconSources.length; i++) {
@@ -94,7 +94,7 @@ function renderMenuTab() {
 
   //Menu Pizza Image
   const menuPizzaImg = document.createElement("img");
-  menuPizzaImg.src = "/images/menu-images/menu-pizza.jpg";
+  menuPizzaImg.src = "images/menu-images/menu-pizza.jpg";
   menuPizzaImg.classList.add("menu-pizza-image");
 
   //Menu Item Headers
@@ -173,7 +173,7 @@ function renderMenuTab() {
 
   // Menu Wine Image
   const menuWineImg = document.createElement("img");
-  menuWineImg.src = "/images/menu-images/menu-wine.jpg";
+  menuWineImg.src = "images/menu-images/menu-wine.jpg";
   menuWineImg.classList.add("menu-wine-image");
 
   // Wine List
@@ -260,7 +260,7 @@ function renderContactTab() {
 
   // Contact Us Images
   const contactUsImage = document.createElement("img");
-  contactUsImage.src = "/images/contact-us-images/contact-us-img.jpg";
+  contactUsImage.src = "images/contact-us-images/contact-us-img.jpg";
   contactUsImage.classList.add("contact-us-image");
 
   //Contact Us Sub Headers
